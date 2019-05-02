@@ -28,3 +28,8 @@
 ##### In Single Player, the player has buttons to control the direction of the snake’s movement. The snake should eat orange food to grow the snake. Yellow food is available as Fast Food, which speeds up the snake’s movement until the snake eats another orange food. White blocks represent obstacles that will end the game if the snake runs into them. In the Settings Menu, the player has the option of selecting Gyro Mode, where the player can control the snake’s movement by tilting the phone. The game ends if the snake eats itself, the snake runs into an obstacle, or the snake runs into the bordering walls.
 
 ##### In Multiplayer, there are two snakes each controlled by their own set of buttons. There is no Gyro Mode for Multiplayer. Multiplayer does not include obstacles or Fast Food. The game runs for sixty seconds and the snake which has eaten more food wins. The game can end before sixty seconds if either snake runs into another snake, if either snake runs into itself, or if either snake runs into the bordering walls. If both snakes die at the same time, then it is a draw.
+
+### Test Cases:
+
+##### Single Player: If snake eats itself it dies. If snake runs into the wall it dies. If snake runs into white obstacle. If snake eats orange food it grows. If snake eats yellow food, it speeds up until the snake eats another orange food.
+##### Test Cases for Multiplayer: If snakes die at the same time (by running into the wall), they die and it's a draw. If a snake dies (runs into the wall, runs into itself, runs into the other snake) before time runs out, it loses and the other snake wins. If a snake eats orange food it grows. If no snake dies before time runs out, the snake who at more orange foods wins.
